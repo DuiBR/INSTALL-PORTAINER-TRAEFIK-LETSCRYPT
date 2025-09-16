@@ -10,4 +10,6 @@
 Para instalar, execute no terminal:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/DuiBR/INSTALL-PORTAINER-TRAEFIK-LETSCRYPT/main/install.sh)
+curl -fsSL -o install.sh https://raw.githubusercontent.com/DuiBR/INSTALL-PORTAINER-TRAEFIK-LETSCRYPT/main/install.sh
+chmod +x install.sh
+sudo ./install.sh
